@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: #f6f8fb; color: #222; padding: 2em; transition: background 0.2s, color 0.2s;}
+body.dark { background: #23232b; color: #f4f4f4; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1em;}
+textarea { width: 100%; font-size: 1em; padding: 0.5em; border-radius: 6px; border: 1px solid #bbb; margin-bottom: 0.5em;}
+.result { font-size: 2em; margin: 1em 0; color: #2a71d2;}
+body.dark .result { color: #4ea3ff; }
+.picked-list { margin-top: 1em; color: #555; }
+button { padding: 0.5em 1em; font-size: 1em; margin: 0.2em; border-radius: 6px; border: none; background: #3c81f6; color: #fff; }
+button:hover { background: #2468d0; }
+body.dark button { background: #375899; }
