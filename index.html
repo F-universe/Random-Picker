@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>🎲 Random Picker</h2>
+    <button onclick="toggleTheme()">🌙/☀️</button>
+  </div>
+  <textarea id="inputList" rows="5" placeholder="Enter names or options, one per line"></textarea>
+  <div>
+    <label><input type="checkbox" id="noRepeat"> No repeats</label>
+    <button onclick="pickRandom()">Pick Random</button>
+    <button onclick="resetPicker()">Reset</button>
+  </div>
+  <div id="result" class="result"></div>
+  <div id="pickedList" class="picked-list"></div>
+  <script src="main.js"></script>
+</body>
+</html>
